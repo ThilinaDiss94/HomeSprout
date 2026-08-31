@@ -1,12 +1,14 @@
 import Navbar from "./components/Navbar/Navbar";
-
+import Hero from "./components/Hero_Section/Hero";
+import Categories from "./components/Categories/Categories";
+import FeaturedArticles from "./components/FeaturedArticles/FeaturedArticles";
 function App() {
   return (
     <div>
       <Navbar />
-
-      <h1>HomeSprout</h1>
-      <p>Home & Gardening Ideas</p>
+      <Hero />
+      <Categories />
+      <FeaturedArticles />    
     </div>
   );
 }
